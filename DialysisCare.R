@@ -2,7 +2,7 @@
 # Importation and formatting
 ############################
 
-setwd("~/Google\ Drive\ (nmilikic@nd.edu)/Fall\ 2019/PSY\ 60122\ Machine\ Learning\ for\ Social\ &\ Behavioral\ Research/Final\ Project/")
+# setwd("~/Google\ Drive\ (nmilikic@nd.edu)/Fall\ 2019/PSY\ 60122\ Machine\ Learning\ for\ Social\ &\ Behavioral\ Research/Final\ Project/")
 dial = read.csv(file = "DialysisCareQualityData.csv", header = TRUE, skip = 1, sep = ",", na.strings = c("","-"))
 dim(dial)
 dial = na.omit(dial)
